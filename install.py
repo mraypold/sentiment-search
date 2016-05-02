@@ -3,10 +3,6 @@
 #
 
 import os
-
-# Pip install the requirements.
-os.system('pip install -r requirements.txt')
-
 import requests
 import zipfile
 import StringIO

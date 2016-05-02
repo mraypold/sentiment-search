@@ -6,7 +6,9 @@ This app is not hardened for production and should be considered more of a proof
 
 ### Installation
 
-Some dependencies are not included in this repository. To install them run `python install.py`. The script will install the python 2.7 dependencies, download the Twitter sentiment analysis repository, download and rename the Twitter sentiment dataset and then run the sentiment analysis algorithm to create python pickles that are used in the Flask application to provide prediction for searched tweets.
+`pip install -r requirements.txt`
+
+`python install.py` This will install the sentiment analysis repo and create the python pickles used in the flask application.
 
 ### Running
 
