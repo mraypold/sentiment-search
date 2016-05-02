@@ -3,13 +3,14 @@
 #
 
 import os
+
+# Pip install the requirements.
+os.system('pip install -r requirements.txt')
+
 import requests
 import zipfile
 import StringIO
 from git import Repo
-
-# Pip install the requirements.
-os.system('pip install -r requirements.txt')
 
 # Pull the sentiment analysis repository.
 repo_url = 'https://github.com/mraypold/twitter-sentiment.git'
